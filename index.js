@@ -23,3 +23,12 @@ addForm.addEventListener('submit',e => {
     }
 
 });
+
+list.addEventListener('click', x=> {
+
+    if (x.target.classList.contains('delete')){
+        x.target.parentElement.remove();
+
+    }
+
+});
